@@ -8,27 +8,56 @@ body {
     padding: 16px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     gap: 8px;
 }
 
 .mainNavbar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 8px;
 }
 
 .mainSection {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 8px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .workbenchSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px 24px;
+    /* border: 1px solid black; */
+    padding: 8px;
+    overflow: auto;
+}
+
+.aCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.aImgCard {
     border: 1px solid black;
     padding: 8px;
 }
 
-.aCard {
-    border: 1px solid black;
-    padding: 8px;
-    width: fit-content;
+.codeSection {
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    width: 240px;
+    background: black;
+    color: green;
+    padding: 24px;
+    position: absolute;
+    right: 24px;
 }
